@@ -27,12 +27,12 @@ Web-developer 9.0
 
 [Урок 8](https://andreygerasimuk.github.io/lesson8/ "Сверстать ряд, в котором 6 иконок. Адаптив") - Ускорение верстки в разы.
 
-[Урок 9](https://andreygerasimuk.github.io/lesson9/ "") - Верстка при помощи bootstrap.
+[Урок 9](https://andreygerasimuk.github.io/lesson9/ "Верстка при помощи bootstrap") - Верстка при помощи bootstrap.
 
 
 ### Модуль 4. Еще немного ускорения.
 
-[Урок 10](https://andreygerasimuk.github.io/lesson10/ "") - Препроцессор LESS для CSS. 
+[Урок 10](https://andreygerasimuk.github.io/lesson10/ "Препроцессор LESS для CSS") - Препроцессор LESS для CSS. 
 
 [Урок 11.1](https://cloud.mail.ru/public/ANPX/2TW3moKth "скриншот пройденного тренажера по emmet") - Сниппеты. 
 
