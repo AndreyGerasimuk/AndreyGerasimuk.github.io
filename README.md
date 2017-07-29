@@ -12,11 +12,13 @@ Web-developer 9.0
 
 
 ### Модуль 2. Изучение основ HTML и CSS.
-[Урок 4](https://andreygerasimuk.github.io/lesson4/ "Знакомство с основами HTML/CSS") - Знакомство с основами HTML/CSS
+[Урок 4](https://andreygerasimuk.github.io/lesson4/ "Знакомство с основами HTML") - Знакомство с основами HTML
 
-[Урок 5]( "") - 
+[Урок 5](https://andreygerasimuk.github.io/lesson4/ "Знакомство с основами CSS") - Знакомство с основами CSS
 
-[Урок 6]( "") - 
+[Урок 6.1](https://andreygerasimuk.github.io/lesson6-1/ "Создать документ html внутри которого должен находится элемент шапка сайта с навигацией") - Позиционирование в CSS
+
+[Урок 6.2](https://andreygerasimuk.github.io/lesson6-2/ "Создать документ HTML, в котором находится блочный элемент") - Позиционирование в CSS
 
 [Урок 7]( "") - 
 
