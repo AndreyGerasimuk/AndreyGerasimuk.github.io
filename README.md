@@ -12,7 +12,7 @@ Web-developer 9.0
 
 
 ### Модуль 2. Изучение основ HTML и CSS.
-[Урок 4](AndreyGerasimuk.github.io/lesson4/ "Знакомство с основами HTML/CSS") - Знакомство с основами HTML/CSS
+[Урок 4](/lesson4/ "Знакомство с основами HTML/CSS") - Знакомство с основами HTML/CSS
 
 [Урок 5]( "") - 
 
