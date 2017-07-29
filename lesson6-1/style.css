@@ -1,0 +1,34 @@
+ @import url('https://fonts.googleapis.com/css?family=Marmelad');
+* {
+    font-family: 'Marmelad', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background: #000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.header ul {
+    width: 700px;
+    margin: auto;
+}
+.header ul li {
+    display: inline-block;
+}
+.header ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 15px 30px;
+}
+.header ul li a:hover {
+    color: #000;
+    background: #fff;
+}
+
+.content {
+    width: 700px;
+    margin: 60px auto;
+}

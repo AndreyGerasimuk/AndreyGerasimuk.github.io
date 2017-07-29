@@ -1,0 +1,26 @@
+ @import url('https://fonts.googleapis.com/css?family=Lobster');
+body {
+  font-family: 'Lobster', cursive;
+  font-size: 5rem;
+  color: #B8FFE9;
+  padding: 0;
+  margin: 0;
+}
+.main {
+    width: 100%;
+    background: #fff;
+    height: 100vh;
+}
+.box {
+  width: 300px;
+  height: 400px;
+  position: relative;
+  top: 50%;
+  margin-top: -222px;
+  left: 50%;
+  margin-left: -182px;
+  padding: 20px 30px;
+  display: block;
+  background: #fff;
+  border: 2px solid #ccc;
+}
