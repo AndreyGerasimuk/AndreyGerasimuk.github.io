@@ -25,10 +25,17 @@ Web-developer 9.0
 
 [Урок 7](https://andreygerasimuk.github.io/lesson7/ "Пробуем верстку на чистом HTML И CSS") - Верстка первого макета.
 
-[Урок 8]( "") - Ускорение верстки в разы.
+[Урок 8](https://andreygerasimuk.github.io/lesson8/ "Сверстать ряд, в котором 6 иконок. Адаптив") - Ускорение верстки в разы.
 
-[Урок 9]( "") - Верстка при помощи bootstrap.
+[Урок 9](https://andreygerasimuk.github.io/lesson9/ "") - Верстка при помощи bootstrap.
 
-[Урок 10]( "") - 
 
-[Урок 11]( "") - 
+### Модуль 4. Еще немного ускорения.
+
+[Урок 10](https://andreygerasimuk.github.io/lesson10/ "") - Препроцессор LESS для CSS. 
+
+[Урок 11.1](https://cloud.mail.ru/public/ANPX/2TW3moKth "скриншот пройденного тренажера по emmet") - Сниппеты. 
+
+[Урок 11.2](https://cloud.mail.ru/public/4Uwf/4qbrbZywd "скриншот первого сниппета") - Сниппеты. 
+
+[Урок 12](https://andreygerasimuk.github.io/ "Заливаем свой первый сайт на GitHub Pages") - Хостинг от GitHub. 
