@@ -1,0 +1,74 @@
+body {
+	background-image: url(bg.gif);
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 12px;
+}
+form {
+	background-color: #fff;
+	width: 318px;
+	height: 368px;
+	display: block;
+	position: absolute;
+	top: 100px;
+	left: 125px;
+	border: 1px solid #cfdede;
+}
+legend {
+	display: block;
+	background-color: #01b3b3;
+	color: #fff;
+	font-weight: 600;
+	padding: 7px 10px 6px;
+	margin: 0 0 16px 29px;
+	position: relative;
+	top: -4px;
+	letter-spacing: -0.2px;
+}
+label, input {
+	display: block;
+	padding: 0;
+}
+label {
+	font-weight: 600;
+	margin: 13px 29px 10px;
+}
+em {
+	color: #01b3b3;
+}
+input {
+	width: 258px;
+	height: 30px;
+	background-image: url(bg.gif);
+}
+#email {
+	font-style: italic;
+	font-size: 12px;
+	padding: 0 0 0 12px;
+	width: 248px;
+	margin: 12px 0 17px 28px;
+	border: 1px solid #cfdede;
+}
+#pass {
+	width: 260px;
+	margin: 14px 0 18px 28px;	
+	border: 1px solid #cfdede;
+}
+#pass2 {
+	width: 260px;
+	margin: 13px 0 20px 28px;	
+	border: 1px solid #cfdede;
+}
+.btn {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 600;
+	border-radius: 4px;
+	background-image: -moz-linear-gradient( 90deg, #01b2b2 0%, #01c5c5 100%);
+	background-image: -webkit-linear-gradient( 90deg, #01b2b2 0%, #01c5c5 100%);
+	background-image: -ms-linear-gradient( 90deg, #01b2b2 0%, #01c5c5 100%);
+	margin: 34px 28px 0 29px;
+	width: 260px;
+	height: 45px;
+	border: 1px solid #01b2b2;
+}
