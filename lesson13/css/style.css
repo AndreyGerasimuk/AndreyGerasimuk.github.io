@@ -71,4 +71,5 @@ input {
 	width: 260px;
 	height: 45px;
 	border: 1px solid #01b2b2;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
 }
