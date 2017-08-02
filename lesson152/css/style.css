@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+body {
+  background: #333 url(../img/bg.jpg);
+}
+.box_photo {
+  display: block;
+  width: 900px;
+  margin: 10% auto;
+}
+.photo {
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  z-index: 1;
+  -webkit-filter: brightness(1);
+}
+.photo:hover img{
+  -webkit-filter: brightness(0.1);
+}
+h1 {
+  opacity: 0;
+  color: #fff;
+  position: absolute;
+  left: 20px;
+  top: 100%;
+  z-index: 3;
+  transition: all 0.5s;
+}
+.photo:hover h1 {
+  opacity: 1;
+  color: #fff;
+  top: 80%;
+  z-index: 3;
+}
