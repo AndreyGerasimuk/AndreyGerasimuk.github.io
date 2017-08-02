@@ -1,13 +1,32 @@
+/* Шрифты */
+@font-face {
+  font-family: 'ProximaNovaB';
+  src: url('../fonts/ProximaNova-Bold.eot');
+  src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Bold.woff2') format('woff2'), url('../fonts/ProximaNova-Bold.woff') format('woff'), url('../fonts/ProximaNova-Bold.ttf') format('truetype'), url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNovaR';
+  src: url('../fonts/ProximaNova-Regular.eot');
+  src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Regular.woff2') format('woff2'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('truetype'), url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 /* Палитра */
 /* Базовые настройки */
 html {
   font-size: 10px;
 }
+body {
+  font-family: 'ProximaNovaR', sans-serif;
+}
 .button {
-  background-color: #fcb303;
-  color: #ffffff;
   padding: 1rem 3rem;
   border-radius: 8px;
+  font-size: 1.2rem;
+  background-color: #fcb303;
+  color: #ffffff;
   text-transform: uppercase;
   border: none;
 }
@@ -16,8 +35,84 @@ section {
   padding: 10rem 0;
 }
 /* Первый экран */
-main {
-  padding: 3rem;
+.main {
+  background: #ffffff url(../img/main-bg.jpg) center center no-repeat;
+  padding: 3rem 0 5rem;
+  background-size: cover;
+  /* подзаголовок */
+  /* зелёный ярлык */
+  /* главная форма */
+}
+.main-content {
+  margin-top: 14rem;
+  /* главный заголовок */
+}
+.main-content h1 {
+  margin-bottom: 4rem;
+  font-family: 'ProximaNovaB', sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  line-height: 1.45;
+}
+.main-subtitle {
+  margin-bottom: 4rem;
+  font-size: 2.4rem;
+}
+.main-trigger {
+  margin-top: 3rem;
+  display: block;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-family: 'ProximaNovaB', sans-serif;
+}
+.main span {
+  display: inline-block;
+  padding: 3rem 5rem;
+  font-size: 1.8rem;
+  color: #ffffff;
+  background-color: #46b814;
+  text-align: center;
+}
+.main span strong {
+  font-size: 3rem;
+  font-family: 'ProximaNovaB', sans-serif;
+}
+.main-form {
+  padding: 4rem 5rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+.main-form-header {
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
+}
+.main-form-header strong {
+  font-size: 1.9rem;
+}
+.main-form-input {
+  display: block;
+  margin: 2rem 0;
+  border: 1px solid #dddddd;
+  width: 100%;
+  padding: 1.7rem;
+}
+.main-form label {
+  position: absolute;
+  display: inline-block;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  background-color: #ffffff;
+}
+.main-form-btn {
+  height: 5rem;
+  width: 100%;
+  font-size: 1.6rem;
+}
+.main-form small {
+  display: block;
+  margin-top: 1.5rem;
 }
 .header {
   height: 7rem;
@@ -30,11 +125,15 @@ main {
 .wrap-block {
   display: table-cell;
   vertical-align: middle;
+  text-align: right;
+}
+.phone-block {
+  text-align: right;
 }
 .phone-link {
   display: inline-block;
-  color: #1a1820;
-  font-weight: 700;
+  font-family: 'ProximaNovaB', sans-serif;
   font-size: 2rem;
   line-height: 7rem;
+  color: #1a1820;
 }
