@@ -37,7 +37,12 @@ Web-developer 9.0
 
 [Урок 12][12] - Хостинг от GitHub.
 
-[Урок 13][13] - Вёрстка Pixel perfect.
+
+### Модуль 5. Полноценная практика.
+
+[Урок 13][13] - Вёрстка в стиле Pixel perfect.
+
+[Урок 14][14] - Подключение шрифтов.
 
 [1]: https://xd.adobe.com/view/ab8fd851-556d-46a1-be06-cd98ede84863 "Прототипирование многостраничного сайта"
 [2]: https://cloud.mail.ru/public/CQBS/BUp3gnjHD "Вырезать из макета всю графику"
@@ -54,3 +59,4 @@ Web-developer 9.0
 [11-2]: https://cloud.mail.ru/public/4Uwf/4qbrbZywd "скриншот первого сниппета"
 [12]: https://andreygerasimuk.github.io/ "Заливаем свой первый сайт на GitHub Pages"
 [13]: https://andreygerasimuk.github.io/lesson13/ "Вёрстка Pixel perfect"
+[14]: https://andreygerasimuk.github.io/lesson14/ "Подключение шрифтов"
