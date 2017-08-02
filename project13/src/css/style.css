@@ -21,6 +21,14 @@ html {
 body {
   font-family: 'ProximaNovaR', sans-serif;
 }
+a:hover {
+  text-decoration: none;
+}
+button:focus,
+input:focus,
+a:focus {
+  outline: none;
+}
 .button {
   padding: 1rem 3rem;
   border-radius: 8px;
@@ -29,6 +37,11 @@ body {
   color: #ffffff;
   text-transform: uppercase;
   border: none;
+  transition: alt 0.5s;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #e3a103;
 }
 /* Типографика */
 section {
@@ -48,6 +61,7 @@ section {
   /* главный заголовок */
 }
 .main-content h1 {
+  margin-top: 0;
   margin-bottom: 4rem;
   font-family: 'ProximaNovaB', sans-serif;
   font-size: 4rem;
@@ -136,4 +150,28 @@ section {
   font-size: 2rem;
   line-height: 7rem;
   color: #1a1820;
+}
+@media (max-width: 991px) {
+  .main {
+    background-position: top right;
+  }
+  .phone-block {
+    text-align: center;
+  }
+  .main-title {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  .main-content {
+    margin-top: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .main {
+    background-position: top left;
+  }
+  .header,
+  .wrap-block {
+    text-align: center;
+  }
 }
