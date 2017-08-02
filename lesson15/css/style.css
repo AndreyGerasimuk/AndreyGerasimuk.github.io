@@ -1,0 +1,41 @@
+.box {
+  display: inline-block;
+  margin: 10px;
+  width: 225px;
+  height: 350px;
+  background-image: url(../img/1.jpg);
+  position: relative;
+  z-index: 0;
+}
+
+.box:hover:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.text {
+  position: relative;
+  width: 225px;
+  height: 300px;
+  opacity: 0.5;
+  color: #fff;
+  text-align: center;
+  z-index: 3;
+  transition: all 0.5s;
+}
+.text:hover:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
