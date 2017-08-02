@@ -1,13 +1,16 @@
+.pic1 {background-image: url(../img/1.jpg);}
+.pic2 {background-image: url(../img/2.jpg);}
+.pic3 {background-image: url(../img/3.jpg);}
+.pic4 {background-image: url(../img/4.jpg);}
+
 .box {
   display: inline-block;
   margin: 10px;
   width: 225px;
   height: 350px;
-  background-image: url(../img/1.jpg);
   position: relative;
-  z-index: 0;
+  z-index: 1;
 }
-
 .box:hover:before {
   content: '';
   position: absolute;
@@ -17,25 +20,22 @@
   height: 100%;
   background: #000;
   opacity: 0.8;
-  z-index: 1;
+  z-index: -1;
 }
-
 .text {
-  position: relative;
-  width: 225px;
-  height: 300px;
-  opacity: 0.5;
-  color: #fff;
   text-align: center;
+  opacity: 0;
+  color: #fff;
+  position: absolute;
+  left: 10px;
+  top: 100%;
   z-index: 3;
   transition: all 0.5s;
 }
-.text:hover:before {
+.box:hover .text {
   content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
   opacity: 1;
+  color: #fff;
+  top: 80%;
+  z-index: 3;
 }
