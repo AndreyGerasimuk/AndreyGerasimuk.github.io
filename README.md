@@ -44,7 +44,7 @@ Web-developer 9.0
 
 [Урок 14][14] - Подключение шрифтов.
 
-[Урок 15][15] - Псевдоклассы и псевдоэлементы.
+[Урок 15][15] - Псевдоклассы и псевдоэлементы. [Бонус][15-1]
 
 [1]: https://xd.adobe.com/view/ab8fd851-556d-46a1-be06-cd98ede84863 "Прототипирование многостраничного сайта"
 [2]: https://cloud.mail.ru/public/CQBS/BUp3gnjHD "Вырезать из макета всю графику"
@@ -63,3 +63,4 @@ Web-developer 9.0
 [13]: https://andreygerasimuk.github.io/lesson13/ "Вёрстка Pixel perfect"
 [14]: https://andreygerasimuk.github.io/lesson14/ "Подключение шрифтов"
 [15]: https://andreygerasimuk.github.io/lesson15/ "Псевдоклассы и псевдоэлементы"
+[15-1]: https://andreygerasimuk.github.io/lesson152/ "Бонус :)"
