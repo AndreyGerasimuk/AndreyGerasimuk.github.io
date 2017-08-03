@@ -46,6 +46,8 @@ Web-developer 9.0
 
 [Урок 15][15] - Псевдоклассы и псевдоэлементы. [Бонус][15-1]
 
+[Урок 16][16] - Слайдер на сайте.
+
 [1]: https://xd.adobe.com/view/ab8fd851-556d-46a1-be06-cd98ede84863 "Прототипирование многостраничного сайта"
 [2]: https://cloud.mail.ru/public/CQBS/BUp3gnjHD "Вырезать из макета всю графику"
 [3]: https://cloud.mail.ru/public/Ecar/kEfF3scvD "Настраиваем автообновление страницы browser-sync"
@@ -64,3 +66,4 @@ Web-developer 9.0
 [14]: https://andreygerasimuk.github.io/lesson14/ "Подключение шрифтов"
 [15]: https://andreygerasimuk.github.io/lesson15/ "Псевдоклассы и псевдоэлементы"
 [15-1]: https://andreygerasimuk.github.io/lesson152/ "Бонус :)"
+[16]: https://andreygerasimuk.github.io/lesson16/ "Слайдер на сайте"
