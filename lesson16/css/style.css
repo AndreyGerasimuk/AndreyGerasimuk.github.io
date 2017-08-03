@@ -1,0 +1,11 @@
+body {
+	background-color: #ecffbe;
+}
+h1 {
+	text-align: center;
+	color: #154c00;
+}
+.slider {
+	width: 850px;
+	margin: auto;
+}
