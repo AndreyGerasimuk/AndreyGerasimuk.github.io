@@ -47,6 +47,12 @@ a:focus {
 section {
   padding: 10rem 0;
 }
+.section-header {
+  text-align: center;
+  margin: 2rem 0 10rem;
+  font-family: 'ProximaNovaB', sans-serif;
+  font-size: 3.6rem;
+}
 /* Первый экран */
 .main {
   background: #ffffff url(../img/main-bg.jpg) center center no-repeat;
@@ -150,6 +156,51 @@ section {
   font-size: 2rem;
   line-height: 7rem;
   color: #1a1820;
+}
+/* Оформление секции с преимуществами */
+.features-block {
+  text-align: center;
+}
+.features-block h3 {
+  font-family: 'ProximaNovaB', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.features-block p {
+  font-size: 1.4rem;
+  display: inline-block;
+  width: 80%;
+}
+.features-img {
+  height: 8rem;
+  margin-bottom: 3rem;
+}
+.features-img img {
+  display: block;
+  margin: 0 auto;
+}
+.slick-active {
+  outline: none;
+}
+.arrow {
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  z-index: 99;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  background-size: 70%;
+}
+.prev {
+  left: 0;
+  background: url(../img/left-arrow.svg) center no-repeat;
+  background-size: 70%;
+}
+.next {
+  right: 0;
+  background: url(../img/right-arrow.svg) center no-repeat;
+  background-size: 70%;
 }
 @media (max-width: 991px) {
   .main {
