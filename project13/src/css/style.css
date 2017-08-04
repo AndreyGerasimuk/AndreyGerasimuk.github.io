@@ -26,6 +26,7 @@ a:hover {
 }
 button:focus,
 input:focus,
+textarea:focus,
 a:focus {
   outline: none;
 }
@@ -113,6 +114,7 @@ section {
   display: block;
   margin: 2rem 0;
   border: 1px solid #dddddd;
+  border-radius: 5px;
   width: 100%;
   padding: 1.7rem;
 }
@@ -201,6 +203,46 @@ section {
   right: 0;
   background: url(../img/right-arrow.svg) center no-repeat;
   background-size: 70%;
+}
+/* Оформление модальных окон*/
+.popup {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.popup-content {
+  position: fixed;
+  left: 50%;
+  top: 10%;
+  background-color: #ffffff;
+  transform: translateX(-50%);
+  padding: 4rem 6rem;
+  text-align: center;
+}
+.popup-form {
+  margin-top: 3rem;
+  padding: 0;
+}
+.popup-close {
+  position: absolute;
+  top: -1.5rem;
+  right: -2rem;
+  width: 2rem;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  font-size: 3rem;
+  color: #ffffff;
+}
+.popup-header {
+  font-family: 'ProximaNovaB', sans-serif;
 }
 @media (max-width: 991px) {
   .main {
