@@ -72,10 +72,19 @@ section {
 	padding: 10rem 0;
 }
 .section-header {
-	text-align: center;
-	margin: 2rem 0 10rem;
+	&-light {
+		color: @light;
+		margin-top: 0;
+	}
+	h2 {
 	.bold();
 	font-size: 3.6rem;
+	}
+	p {
+		font-size: 1.4rem;
+	}
+	text-align: center;
+	margin: 2rem 0 10rem;
 }
 
 /* Первый экран */
@@ -238,6 +247,60 @@ section {
 	background-size: 70%;
 }
 
+/* Секция с ценами */
+.price {
+	background: @icn-color url(../img/prices/prices-bg.jpg) center;
+	&-header-btn {
+		margin-top: 2rem;
+	}
+	&-button {
+		text-align: center;
+	}
+	&-block {
+		padding: 2rem 3rem 4rem;
+		min-height: 52rem;
+		background-color: @light;
+		box-shadow: 7px 12px 21px 0px rgba(0, 0, 0, 0.17);
+		text-align: center;
+		h4 {
+			margin: 3rem;
+			font-size: 1.9rem;
+			.bold();
+		}
+		img {
+			width: 100%;
+			max-width: 30rem;
+			display: inline-block;
+			margin-bottom: 2rem;
+		}
+	}
+	&-tag {
+		font-size: 1.9rem;
+		display: block;
+		.bold();
+	}
+	&-list {
+		padding: 0;
+		list-style: none;
+		min-height: 14rem;
+		font-size: 1.6rem;
+		line-height: 1.6;
+		li {
+			&:before {
+				content: '';
+				display: inline-block;
+				width: 1.4rem;
+				height: 1.4rem;
+				background: url(../img/prices/check.svg) no-repeat center;
+				background-size: 100%;
+				vertical-align: middle;
+				margin-right: 1rem;
+			}
+		}
+	}
+}
+
+
 /* Оформление модальных окон*/
 .popup {
 	display: none;
@@ -286,12 +349,34 @@ section {
 	.phone-block {
 		text-align: center;
 	}
+	.main-content {
+		margin-top: 3rem;
+	}
 	.main-title {
 		text-align: center;
 		padding-bottom: 3rem;
 	}
-	.main-content {
-		margin-top: 3rem;
+	.left-arrow {
+		position: absolute;
+		top: 50%;
+		left: 0;
+		transform: scaleY(-50%);
+	}
+	.price {
+		&-button {
+			text-align: center;
+			padding: 2rem;
+		}
+		&-header-btn {
+			margin-top: 0;
+			margin-bottom: 2rem;
+		}
+		&-block {
+			margin-top: 2rem;
+		}
+	}
+	.section-header-light {
+		margin-bottom: 0;
 	}
 }
 @media (max-width: 767px) {
