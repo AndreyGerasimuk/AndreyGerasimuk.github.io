@@ -50,6 +50,8 @@ Web-developer 9.0
 
 [Урок 17][17] - Модальные окна.
 
+[Урок 18][18] - Табы и аккордеон на сайте.
+
 [1]: https://xd.adobe.com/view/ab8fd851-556d-46a1-be06-cd98ede84863 "Прототипирование многостраничного сайта"
 [2]: https://cloud.mail.ru/public/CQBS/BUp3gnjHD "Вырезать из макета всю графику"
 [3]: https://cloud.mail.ru/public/Ecar/kEfF3scvD "Настраиваем автообновление страницы browser-sync"
@@ -70,3 +72,4 @@ Web-developer 9.0
 [15-1]: https://andreygerasimuk.github.io/lesson152/ "Бонус :)"
 [16]: https://andreygerasimuk.github.io/lesson16/ "Слайдер на сайте"
 [17]: https://andreygerasimuk.github.io/lesson17/ "Модальные окна"
+[18]: https://andreygerasimuk.github.io/lesson18/ "Табы и аккордеон"
