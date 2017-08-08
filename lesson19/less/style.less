@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
+        url('../fonts/MyriadPro-Regular.woff') format('woff'),
+        url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
+        url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'Myriad Pro';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    color: #fff;
+}
+.black {
+    color: #000;
+}
+.container {
+    display: block;
+    width: 800px;
+    height: 500px;
+    background: #fff url(../img/bg.jpg) 0 0 no-repeat;
+    margin: auto;
+}
+.tabs {
+    width: 629px;
+    height: 444px;
+    margin: auto;
+}
+.tabs>section {
+    display: none;
+}
+.tabs>input {
+    display: none;
+    position: absolute;
+}
+.tabs>label {
+    position: relative;
+    left: 25px;
+    display: inline-block;
+    margin: 20px 0 0 5px;
+    padding: 5px 15px 0;
+    text-align: center;
+    color: #000;
+    background: #fff;
+    border-radius: 5px 5px 0 0;
+}
+.tabs>label:hover {
+    color: #06B2D8;
+    cursor: pointer;
+}
+.tabs>input:checked+label {
+    color: #fff;
+    background: #06B2D8;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.75);
+}
+/* Активация секций */
+#tab1:checked~#content-tab1, #tab2:checked~#content-tab2 {
+    display: block;
+}
+
+.box {
+    border: 24px solid #06B2D8;
+    border-radius: 5px;
+    background: #000;
+    padding-top: 40px;
+}
+input {
+    display: block;
+    width: 482px;
+    padding: 15px;
+    margin: 30px 30px 10px;
+    background: #1e1d1d;
+    border: none;
+    font-size: 24px;
+    color: #fff;
+}
+.remember {
+    display: inline-block;
+    width: 10px;
+    padding: 0;
+    margin: 0 10px 0 0;
+}
+a {
+    color:  #c51f03;
+    font-size: 15px;
+    margin: 30px 0 0 50px;
+}
+.grey {
+    margin-top: 60px;
+    font-size: 15px;
+    color:  #6f6d6d;
+    width: 150px;
+    margin: 60px 0 0 50px;
+}
+button {
+    width: 128px;
+    height: 41px;
+    border: none;
+    font-family: 'Myriad Pro';
+    font-size: 24px;
+    color: #fff;
+    position: relative;
+    left: 495px;
+    top: -30px;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.75);
+    background: -webkit-radial-gradient(circle farthest-side at 50%, #cf2303 0%, #7f0501 100%);
+    background: -moz-radial-gradient(circle farthest-side at 50%, #cf2303 0%, #7f0501 100%);
+    background: -o-radial-gradient(circle farthest-side at 50%, #cf2303 0%, #7f0501 100%);
+    background: -ms-radial-gradient(circle farthest-side at 50%, #cf2303 0%, #7f0501 100%);
+    background: radial-gradient(circle farthest-side at 50%, #cf2303 0%, #7f0501 100%);
+}
+button:hover {
+    cursor: pointer;
+    font-size: 24px;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.75);
+}
