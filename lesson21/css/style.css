@@ -1,0 +1,35 @@
+.header {
+	text-align: center;
+	background: #fff;
+	margin: 0;
+	padding: 30px 300px;
+}
+
+.content {
+	background: #fff;
+	width: 600px;
+	margin: 0 auto;
+	padding: 30px 300px;
+}
+
+.parallax-window {
+	height: 400px;
+}
+.yoshi1 {
+	height: 200px;
+	position: absolute;
+	right: 100px;
+	top: 200px;
+}
+.yoshi2 {
+	height: 200px;	
+	position: absolute;
+	left: 200px;
+	top: 600px;
+}
+.yoshi3 {
+	height: 200px;	
+	position: absolute;
+	right: 300px;
+	top: 1000px;
+}
