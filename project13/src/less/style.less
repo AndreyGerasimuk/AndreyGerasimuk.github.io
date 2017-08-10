@@ -387,6 +387,54 @@ section {
 	bottom: 0;
 	max-width: 30rem;
 }
+
+/* Схема работы */
+.scheme {
+	background: #fff url(../img/scheme/hand.png) bottom right -10rem no-repeat;
+	background-size: 60rem;
+	&-block {
+		min-height: 30rem;
+	}
+	h3 {
+		font-size: 2rem;
+		.bold();
+	}
+}
+
+/* 100% всё квлючено! */
+.all-inclusive {
+	background: @bg-light;
+	.media {
+		min-height: 12rem;
+		h4 {
+			.bold();
+			font-size: 1.6rem;
+		}
+		font-size: 1.3rem;
+	}
+}
+.circle {
+	display: inline-block;
+	background: @icn-color;
+	width: 4.2rem;
+	height: 4.2rem;
+	border-radius: 50%;
+	margin: 0.2rem;
+	&-border {
+		display: inline-block;
+		width: 5rem;
+		height: 5rem;
+		border: 2px solid @icn-color;
+		border-radius: 50%;
+		text-align: center;
+		line-height: 4rem;
+		color: @light;
+		.bold();
+		font-size: 1.9rem;
+	}
+
+}
+
 /* Оформление модальных окон*/
 .popup {
 	display: none;
@@ -488,6 +536,12 @@ section {
 			display: none;
 		}
 	}
+	.all-inclusive {
+		background: @bg-light;
+		.media {
+			min-height: 10rem;
+		}
+	}
 }
 @media (max-width: 767px) {
 	.main {
@@ -512,6 +566,19 @@ section {
 		}
 		&-next-btn {
 			right: 0;
+		}
+	}
+	.scheme {
+		background: none;
+		text-align: center;
+		&-block {
+			min-height: 20rem;
+		}
+	}
+	.all-inclusive {
+		background: @bg-light;
+		.media {
+			min-height: 8rem;
 		}
 	}
 }
