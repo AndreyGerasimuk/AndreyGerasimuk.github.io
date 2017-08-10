@@ -346,6 +346,50 @@ section {
   bottom: 0;
   max-width: 30rem;
 }
+/* Схема работы */
+.scheme {
+  background: #ffffff url(../img/scheme/hand.png) bottom right -10rem no-repeat;
+  background-size: 60rem;
+}
+.scheme-block {
+  min-height: 30rem;
+}
+.scheme h3 {
+  font-size: 2rem;
+  font-family: 'ProximaNovaB', sans-serif;
+}
+/* 100% всё квлючено! */
+.all-inclusive {
+  background: #f5f5f5;
+}
+.all-inclusive .media {
+  min-height: 12rem;
+  font-size: 1.3rem;
+}
+.all-inclusive .media h4 {
+  font-family: 'ProximaNovaB', sans-serif;
+  font-size: 1.6rem;
+}
+.circle {
+  display: inline-block;
+  background: #46b814;
+  width: 4.2rem;
+  height: 4.2rem;
+  border-radius: 50%;
+  margin: 0.2rem;
+}
+.circle-border {
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  border: 2px solid #46b814;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 4rem;
+  color: #ffffff;
+  font-family: 'ProximaNovaB', sans-serif;
+  font-size: 1.9rem;
+}
 /* Оформление модальных окон*/
 .popup {
   display: none;
@@ -438,6 +482,12 @@ section {
   .feedback .hand {
     display: none;
   }
+  .all-inclusive {
+    background: #f5f5f5;
+  }
+  .all-inclusive .media {
+    min-height: 10rem;
+  }
 }
 @media (max-width: 767px) {
   .main {
@@ -458,5 +508,18 @@ section {
   }
   .feedback-next-btn {
     right: 0;
+  }
+  .scheme {
+    background: none;
+    text-align: center;
+  }
+  .scheme-block {
+    min-height: 20rem;
+  }
+  .all-inclusive {
+    background: #f5f5f5;
+  }
+  .all-inclusive .media {
+    min-height: 8rem;
   }
 }
