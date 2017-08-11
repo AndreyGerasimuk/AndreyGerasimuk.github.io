@@ -61,6 +61,8 @@ Web-developer 9.0
 
 [Урок 21][21] - Parallax эффект для сайта.
 
+[Урок 22][22] - Урок 22. Гео-карты для сайта.
+
 [1]: https://xd.adobe.com/view/ab8fd851-556d-46a1-be06-cd98ede84863 "Прототипирование многостраничного сайта"
 [2]: https://cloud.mail.ru/public/CQBS/BUp3gnjHD "Вырезать из макета всю графику"
 [3]: https://cloud.mail.ru/public/Ecar/kEfF3scvD "Настраиваем автообновление страницы browser-sync"
@@ -85,3 +87,4 @@ Web-developer 9.0
 [19]: https://andreygerasimuk.github.io/lesson19/ "Анимация на CSS3"
 [20]: https://andreygerasimuk.github.io/lesson20/ "Видео-фон на сайте"
 [21]: https://andreygerasimuk.github.io/lesson21/ "Parallax эффект для сайта"
+[22]: https://andreygerasimuk.github.io/lesson22/ "Урок 22. Гео-карты для сайта"
