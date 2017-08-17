@@ -78,7 +78,7 @@ button, input, textarea, a {
 			font-size: 1.9rem;
 		}
 	}
-	&-input {
+	&-input, &-textarea {
 		display: block;
 		margin: 2rem 0;
 		border: 1px solid @border-input;
@@ -523,6 +523,9 @@ section {
 	&-subtitle {
 		font-size: 2.2rem;
 	}
+	&-btn {
+		padding: 1rem;
+	}
 }
 
 /* Дополнительные услуги */
@@ -547,6 +550,49 @@ section {
 	}
 }
 
+/* Контакты */
+.contacts {
+	background: @light url(../img/contact-bg.jpg) center no-repeat;
+	background-size: cover;
+	h2 {
+		.bold();
+	}
+	p {
+		margin: 2rem 0;
+	}
+	&-link {
+		display: inline-block;
+		color: @txt-color;
+		border-bottom: 1px dotted @txt-color;
+		&:hover {
+			color: lighten(@txt-color, 30%);
+		}
+	}
+	&-form {
+		h2 {
+		font-size: 1.9rem;
+		.reg();
+		margin-bottom: 3rem;
+		}
+	}
+}
+
+/* Подвал */
+footer {
+	padding: 4rem 0;
+	p {
+		margin: 0;
+	}
+}
+.footer {
+	&-contacts {
+		text-align: center;
+		padding-top: 1rem;
+	}
+	&-dev-logo {
+		text-align: right;
+	}
+}
 
 /* Оформление модальных окон */
 .popup {
@@ -671,6 +717,24 @@ section {
 	.tour {
 		background: none;
 		background-color: @bg-light;
+	}
+	.contacts {
+		background: none;
+		background-color: @bg-light;
+		&-form {
+			margin-top: 3rem;
+		}
+	}
+	footer {
+		text-align: center;
+	}
+	.footer {
+		&-contacts {
+			margin: 2rem 0;
+		}
+		&-dev-logo {
+			text-align: center;
+		}
 	}
 }
 @media (max-width: 767px) {
